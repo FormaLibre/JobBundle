@@ -1284,7 +1284,7 @@ class JobController extends Controller
             $response->headers->set('Content-Disposition', 'attachment; filename=' . urlencode($jobRequest->getTitle() . '.' . $ext));
         }
 
-        return $response;
+        return $response->send();
     }
 
     /**
@@ -1369,7 +1369,7 @@ class JobController extends Controller
             $response->headers->set('Content-Disposition', 'attachment; filename=' . urlencode($jobOffer->getTitle() . '.' . $ext));
         }
 
-        return $response;
+        return $response->send();
     }
 
     private function checkAnnouncerAccess(Announcer $announcer, User $user)
