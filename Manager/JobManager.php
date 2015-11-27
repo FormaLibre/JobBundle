@@ -591,7 +591,8 @@ class JobManager
                 'hainaut',
                 'liege',
                 'luxembourg',
-                'brussels'
+                'brussels',
+                'namur'
             );
         }
 

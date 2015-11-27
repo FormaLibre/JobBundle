@@ -147,18 +147,18 @@ class JobController extends Controller
         );
         $form->handleRequest($this->request);
 
-        if ($lang === 'fr' || $lang === 'de') {
-            $registrationNumber = $form->get('registrationNumber')->getData();
-            $pattern = '#^[0-9]{1}[\/-]?[0-9]{6}[\/-]?[0-9]{4}$#';
-
-            if (!preg_match($pattern, $registrationNumber)) {
-                $form->get('registrationNumber')->addError(
-                    new FormError(
-                        $this->translator->trans('invalid_registration_number', array(), 'job')
-                    )
-                );
-            }
-        }
+//        if ($lang === 'fr' || $lang === 'de') {
+//            $registrationNumber = $form->get('registrationNumber')->getData();
+//            $pattern = '#^[0-9]{1}[\/-]?[0-9]{6}[\/-]?[0-9]{4}$#';
+//
+//            if (!preg_match($pattern, $registrationNumber)) {
+//                $form->get('registrationNumber')->addError(
+//                    new FormError(
+//                        $this->translator->trans('invalid_registration_number', array(), 'job')
+//                    )
+//                );
+//            }
+//        }
 
         if ($form->isValid()) {
             $user->setLocale($lang);
@@ -308,18 +308,18 @@ class JobController extends Controller
         );
         $form->handleRequest($this->request);
 
-        if ($lang === 'fr' || $lang === 'de') {
-            $registrationNumber = $form->get('registrationNumber')->getData();
-            $pattern = '#^[0-9]{1}[\/-]?[0-9]{6}[\/-]?[0-9]{4}$#';
-
-            if (!preg_match($pattern, $registrationNumber)) {
-                $form->addError(
-                    new FormError(
-                        $this->translator->trans('invalid_registration_number', array(), 'job')
-                    )
-                );
-            }
-        }
+//        if ($lang === 'fr' || $lang === 'de') {
+//            $registrationNumber = $form->get('registrationNumber')->getData();
+//            $pattern = '#^[0-9]{1}[\/-]?[0-9]{6}[\/-]?[0-9]{4}$#';
+//
+//            if (!preg_match($pattern, $registrationNumber)) {
+//                $form->addError(
+//                    new FormError(
+//                        $this->translator->trans('invalid_registration_number', array(), 'job')
+//                    )
+//                );
+//            }
+//        }
 
         if ($form->isValid()) {
             $user->setLocale($lang);
