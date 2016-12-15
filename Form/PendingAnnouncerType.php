@@ -149,7 +149,7 @@ class PendingAnnouncerType extends AbstractType
             'repeated',
             array(
                 'required' => true,
-                'translation_domain' => 'platform',
+                'translation_domain' => 'job',
                 'type' => 'password',
                 'first_options' => array('label' => 'password'),
                 'second_options' => array('label' => 'password_verification'),
