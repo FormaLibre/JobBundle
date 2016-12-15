@@ -68,6 +68,8 @@ no_community: 'Geen gemeenschap'
 no_job_offer: 'Geen vacature'
 no_pending_announcer: 'Geen wachtende directie'
 notification_explanations: 'Een email krijgen wanneer een nieuwe cv beschikbaar is.'
+password: Paswoord
+password_verification: Herhaal paswoord
 pending_announcement_form_message: 'Schrijf uw school in'
 pending_announcers: 'Wachtende directie'
 pending_announcers_managemnet: 'Beheer van de wachtende directie'
