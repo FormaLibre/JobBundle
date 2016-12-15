@@ -27,7 +27,7 @@ create_job_offer: 'Een vacature creëren'
 created_pending_announcer_content: 'Beste %lastName% %firstName%,<br>\nUw profiel werd geregistreerd op teachersmobility.be. Uw profiel moet door de beheerders goedgekeurd worden om offertes te kunnen posten.<br>U zal een e-mail krijgen na goedkeuring.<br><br>\nDe Teachersmobility ploeg.\n'
 created_pending_announcer_object: 'Uw profiel werd op teachersmobility.be gecreërd.'
 cv: 'C.V.'
-cv_expiration_date: 'Geldigheidsdatum'
+cv_expiration_date: 'Geldigheidsdatum kandidatuurstelling'
 cv_title: 'Titel diploma'
 decline_pending_announcer: 'Een directeur schrappen'
 decline_pending_announcer_content: decline_pending_announcer_content
