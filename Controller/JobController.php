@@ -67,7 +67,7 @@ class JobController extends Controller
      *     "roleManager"   = @DI\Inject("claroline.manager.role_manager"),
      *     "translator"    = @DI\Inject("translator"),
      *     "userManager"   = @DI\Inject("claroline.manager.user_manager"),
-     *     "localeManager" = @DI\Inject("claroline.common.locale_manager"),
+     *     "localeManager" = @DI\Inject("claroline.manager.locale_manager"),
      *     "tokenStorage"  = @DI\Inject("security.token_storage"),
      *     "fileDir"       = @DI\Inject("%claroline.param.files_directory%"),
      *     "extGuesser"    = @DI\Inject("claroline.utilities.mime_type_guesser")
@@ -162,15 +162,15 @@ class JobController extends Controller
 
         if ($form->isValid()) {
             $user->setLocale($lang);
+            $user = $this->userManager->createUser(
+                $user,
+                false
+            );
             $this->roleManager->setRoleToRoleSubject(
                 $user,
                 $this->configHandler->getParameter('default_role')
             );
-            $user = $this->userManager->createUserWithRole(
-                $user,
-                PlatformRoles::USER,
-                false
-            );
+
             $pendingAnnouncer = new PendingAnnouncer();
             $pendingAnnouncer->setUser($user);
             $community = $this->jobManager->getCommunityByLocale($lang);
@@ -323,14 +323,17 @@ class JobController extends Controller
 
         if ($form->isValid()) {
             $user->setLocale($lang);
+
+            $user = $this->userManager->createUser(
+                $user,
+                false
+            );
+
             $this->roleManager->setRoleToRoleSubject(
                 $user,
                 $this->configHandler->getParameter('default_role')
             );
-            $user = $this->userManager->createUserWithRole(
-                $user,
-                PlatformRoles::USER
-            );
+
 
             $seekerRole = $this->roleManager->getRoleByName('ROLE_JOB_SEEKER');
 
