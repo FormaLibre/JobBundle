@@ -1,7 +1,7 @@
 accept_pending_announcer: 'Accepter le directeur d''école'
-accept_pending_announcer_content: "Cher %name%,<br>\nVotre accès à la plate-forme http://teachersmobility.be vient d'être validée.<br>\nVous pouvez désormais y poster vos annonces.<br><br>\nCordialement\n"
+accept_pending_announcer_content: "Cher %name%,<br>\nVotre accès à la plateforme http://teachersmobility.be vient d'être validée.<br>\nVous pouvez désormais y poster vos annonces.<br><br>\nCordialement\n"
 accept_pending_announcer_message: 'Êtes-vous sûr de vouloir valider l''inscription de ce directeur d''école ?'
-accept_pending_announcer_object: 'Votre accès à Teachers mobility a été validé'
+accept_pending_announcer_object: 'Votre accès à Teachers Mobility a été validé'
 accept_visibility_message: 'Ich bin damit einverstanden, dass Schulleiter meine Bewerbung einsehen können.'
 add_announcers: 'Ajouter des chefs d''établissement'
 add_community: 'Ajouter une communauté'
@@ -18,10 +18,10 @@ application_date: 'Date d''application'
 candidate_for: 'Bewerber für'
 candidate_from: 'Candidat de'
 communities_management: 'Gestion des communautés'
-community: Communauté
+community: 'Gemeinschaft'
 community_creation: 'Création d''une communauté'
 community_edition: 'Modification d''une communauté'
-captcha_explanation: Veuillez recopier le texte de l'image dans le champ ci-dessous*
+captcha_explanation: 'Schreiben Sie den Text des Bildes im untengenannten Feld*'
 captcha_reason: '*Un Captcha est un système de protection qui permet de vérifier si le formulaire d''une page web est bien complété par un humain et non par un robot mailveillant qui tente d''envoyer du spam.'
 create_job_offer: 'Créer une offre d''emploi'
 created_pending_announcer_content: "Cher %lastName% %firstName%,<br>\nVotre profil a été enregistré sur teachersmobility.be.<br>Votre profil doit être validé par les administrateurs pour pouvoir poster vos offres.<br>Vous recevrez un mail de confirmation dès la validation enregistrée.<br><br>\nL'équipe Teachers mobility\n"
@@ -41,7 +41,7 @@ delete_job_offer: 'Supprimer une offre d''emploi'
 delete_job_offer_message: 'Êtes-vous sûr de vouloir supprimer une offre d''emploi'
 delete_job_request: 'Supprimer une postulation'
 delete_job_request_message: 'Êtes-vous sûr de vouloir supprimer cette postulation'
-discipline: Discipline
+discipline: 'Fach'
 duration: Durée
 establishment: 'Schule'
 expiration_date: 'Date d''expiration'
@@ -70,7 +70,7 @@ no_job_offer: 'Aucune offre d''emploi'
 no_pending_announcer: 'Aucun chef d''établissement en attente'
 notification_explanations: notification_explanations
 password: Passwort
-password_verification: Wiederholung des passwortes
+password_verification: 'Wiederholung des Passwortes'
 pending_announcement_form_message: 'Inscrivez votre établissement'
 pending_announcers: 'Chefs d''établissement en attente'
 pending_announcers_managemnet: 'Gestion des chefs d''établissements en attente'
@@ -80,4 +80,4 @@ seeker_form_message: 'Détaché de la Fédération Wallonie-Bruxelles'
 show_job_offers: 'Voir les offres d''emplois'
 show_offers_for: 'Offre en %community%'
 teacher: Enseignant
-you_are: 'Sie Sind'
+you_are: 'Sie sind'
