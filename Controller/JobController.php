@@ -1300,7 +1300,7 @@ class JobController extends Controller
      * @EXT\Route(
      *     "/job_offers/community/{community}/search/{search}/page/{page}/from/{from}/to/{to}",
      *     name="formalibre_job_offers_open_search",
-     *     defaults={"page"=1, "from": "1420153200", "to": "1451689200"},
+     *     defaults={"page"=1, "from": "1483920000", "to": "1504137600"},
      *     options = {"expose"=true}
      * )
      * @EXT\Template
