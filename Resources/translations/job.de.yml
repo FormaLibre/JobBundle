@@ -75,9 +75,9 @@ pending_announcement_form_message: 'Inscrivez votre établissement'
 pending_announcers: 'Chefs d''établissement en attente'
 pending_announcers_managemnet: 'Gestion des chefs d''établissements en attente'
 registration_number: 'Matrikelnummer'
-school_director: 'Directeur d''école'
+school_director: 'Schulleitung'
 seeker_form_message: 'Détaché de la Fédération Wallonie-Bruxelles'
 show_job_offers: 'Voir les offres d''emplois'
 show_offers_for: 'Offre en %community%'
-teacher: Enseignant
+teacher: Lehrer
 you_are: 'Sie sind'
